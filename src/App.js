@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import InnerHtml from "./components/InnerHtml";
+import ReactFragment from "./components/ReactFragment";
+// import InnerHtml from "./components/InnerHtml";
 // import Controllers from "./components/Controllers";
 // import Styling from "./components/Styling";
 // import DynamicInputs from "./components/DynamicInputs";
@@ -17,7 +18,8 @@ import InnerHtml from "./components/InnerHtml";
 function App() {
   return (
     <>
-      <InnerHtml />
+      <ReactFragment />
+      {/* <InnerHtml /> */}
       {/* <Controllers /> */}
       {/* <Styling /> */}
       {/* <DynamicInputs /> */}
