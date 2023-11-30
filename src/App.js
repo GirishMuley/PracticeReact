@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import DynamicInputs from "./components/DynamicInputs";
+import Styling from "./components/Styling";
+// import DynamicInputs from "./components/DynamicInputs";
 // import FormInReact from "./components/FormInReact";
 // import KeysInReact from "./components/KeysInReact";
 // import Add from "./components/Add";
@@ -14,7 +15,8 @@ import DynamicInputs from "./components/DynamicInputs";
 function App() {
   return (
     <>
-      <DynamicInputs />
+      <Styling />
+      {/* <DynamicInputs /> */}
       {/* <FormInReact /> */}
       {/* <KeysInReact /> */}
       {/* <Add /> */}
