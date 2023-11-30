@@ -1,11 +1,13 @@
 import "./Card.css";
 import "./App.css";
 import Map from "./components/Map";
+import Filter from "./components/Filter";
 
 function App() {
   return (
     <>
-      <Map />
+      <Filter />
+      {/* <Map /> */}
     </>
   );
 }
