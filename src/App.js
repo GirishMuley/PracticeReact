@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import FormInReact from "./components/FormInReact";
+import DynamicInputs from "./components/DynamicInputs";
+// import FormInReact from "./components/FormInReact";
 // import KeysInReact from "./components/KeysInReact";
 // import Add from "./components/Add";
 // import InlineConditionalExpressions from "./components/InlineConditionalExpressions";
@@ -13,7 +14,8 @@ import FormInReact from "./components/FormInReact";
 function App() {
   return (
     <>
-      <FormInReact />
+      <DynamicInputs />
+      {/* <FormInReact /> */}
       {/* <KeysInReact /> */}
       {/* <Add /> */}
       {/* <InlineConditionalExpressions /> */}
