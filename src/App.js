@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import Parent from "./components/Parent";
+import InlineConditionalExpressions from "./components/InlineConditionalExpressions";
+// import Parent from "./components/Parent";
 // import Map from "./components/Map";
 // import Filter from "./components/Filter";
 // import Count from "./components/Count";
@@ -9,7 +10,8 @@ import Parent from "./components/Parent";
 function App() {
   return (
     <>
-      <Parent />
+      <InlineConditionalExpressions />
+      {/* <Parent /> */}
       {/* <StateUsingClassComponent /> */}
       {/* <Count /> */}
       {/* <Filter /> */}
