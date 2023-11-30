@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import KeysInReact from "./components/KeysInReact";
+import FormInReact from "./components/FormInReact";
+// import KeysInReact from "./components/KeysInReact";
 // import Add from "./components/Add";
 // import InlineConditionalExpressions from "./components/InlineConditionalExpressions";
 // import Parent from "./components/Parent";
@@ -12,7 +13,8 @@ import KeysInReact from "./components/KeysInReact";
 function App() {
   return (
     <>
-      <KeysInReact />
+      <FormInReact />
+      {/* <KeysInReact /> */}
       {/* <Add /> */}
       {/* <InlineConditionalExpressions /> */}
       {/* <Parent /> */}
