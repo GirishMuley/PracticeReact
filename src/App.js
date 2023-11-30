@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import Controllers from "./components/Controllers";
+import InnerHtml from "./components/InnerHtml";
+// import Controllers from "./components/Controllers";
 // import Styling from "./components/Styling";
 // import DynamicInputs from "./components/DynamicInputs";
 // import FormInReact from "./components/FormInReact";
@@ -16,7 +17,8 @@ import Controllers from "./components/Controllers";
 function App() {
   return (
     <>
-      <Controllers />
+      <InnerHtml />
+      {/* <Controllers /> */}
       {/* <Styling /> */}
       {/* <DynamicInputs /> */}
       {/* <FormInReact /> */}
