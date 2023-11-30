@@ -41,6 +41,7 @@ const Map = () => {
   //     setNumbers(numbersLessThanFive);
   //   };
 
+  //return square less than 50
   const mapData = () => {
     let numbersLessThan50 = numbers
       .map((number) => {
