@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import Name from "./components/Name";
+import AddComponent from "./components/AddComponent";
+// import Name from "./components/Name";
 // import Debouncing from "./components/Debouncing";
 // import REST from "./components/REST";
 // import ReactFragment from "./components/ReactFragment";
@@ -21,7 +22,8 @@ import Name from "./components/Name";
 function App() {
   return (
     <>
-      <Name />
+      <AddComponent />
+      {/* <Name /> */}
       {/* <Debouncing /> */}
       {/* <REST /> */}
       {/* <ReactFragment /> */}
