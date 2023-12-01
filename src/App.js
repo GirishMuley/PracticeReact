@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import LazyLoading from "./components/LazyLoading";
+import HelperFunction from "./components/HelperFunction";
+// import LazyLoading from "./components/LazyLoading";
 // import AddComponent from "./components/AddComponent";
 // import Name from "./components/Name";
 // import Debouncing from "./components/Debouncing";
@@ -23,7 +24,8 @@ import LazyLoading from "./components/LazyLoading";
 function App() {
   return (
     <>
-      <LazyLoading />
+      <HelperFunction />
+      {/* <LazyLoading /> */}
       {/* <AddComponent /> */}
       {/* <Name /> */}
       {/* <Debouncing /> */}
