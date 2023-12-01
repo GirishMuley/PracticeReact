@@ -1,6 +1,8 @@
 import "./Card.css";
 import "./App.css";
-import HelperFunction from "./components/HelperFunction";
+import Family from "./components/Family";
+import { familyTree } from "./components/data";
+// import HelperFunction from "./components/HelperFunction";
 // import LazyLoading from "./components/LazyLoading";
 // import AddComponent from "./components/AddComponent";
 // import Name from "./components/Name";
@@ -24,7 +26,8 @@ import HelperFunction from "./components/HelperFunction";
 function App() {
   return (
     <>
-      <HelperFunction />
+      <Family familyTree={familyTree} />
+      {/* <HelperFunction /> */}
       {/* <LazyLoading /> */}
       {/* <AddComponent /> */}
       {/* <Name /> */}
