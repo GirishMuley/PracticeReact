@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import AddComponent from "./components/AddComponent";
+import LazyLoading from "./components/LazyLoading";
+// import AddComponent from "./components/AddComponent";
 // import Name from "./components/Name";
 // import Debouncing from "./components/Debouncing";
 // import REST from "./components/REST";
@@ -22,7 +23,8 @@ import AddComponent from "./components/AddComponent";
 function App() {
   return (
     <>
-      <AddComponent />
+      <LazyLoading />
+      {/* <AddComponent /> */}
       {/* <Name /> */}
       {/* <Debouncing /> */}
       {/* <REST /> */}
