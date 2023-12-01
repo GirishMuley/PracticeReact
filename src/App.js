@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import ReactFragment from "./components/ReactFragment";
+import REST from "./components/REST";
+// import ReactFragment from "./components/ReactFragment";
 // import InnerHtml from "./components/InnerHtml";
 // import Controllers from "./components/Controllers";
 // import Styling from "./components/Styling";
@@ -18,7 +19,8 @@ import ReactFragment from "./components/ReactFragment";
 function App() {
   return (
     <>
-      <ReactFragment />
+      <REST />
+      {/* <ReactFragment /> */}
       {/* <InnerHtml /> */}
       {/* <Controllers /> */}
       {/* <Styling /> */}
