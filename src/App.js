@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import REST from "./components/REST";
+import Debouncing from "./components/Debouncing";
+// import REST from "./components/REST";
 // import ReactFragment from "./components/ReactFragment";
 // import InnerHtml from "./components/InnerHtml";
 // import Controllers from "./components/Controllers";
@@ -19,7 +20,8 @@ import REST from "./components/REST";
 function App() {
   return (
     <>
-      <REST />
+      <Debouncing />
+      {/* <REST /> */}
       {/* <ReactFragment /> */}
       {/* <InnerHtml /> */}
       {/* <Controllers /> */}
