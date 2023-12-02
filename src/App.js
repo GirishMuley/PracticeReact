@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import SearchFilter from "./components/SearchFilter";
+// import SearchFilter from "./components/SearchFilter";
+import Counter from "./Counter";
 // import CodeSplitting from "./components/CodeSplitting";
 // import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
 // import CustomHook from "./components/CustomHook";
@@ -31,7 +32,8 @@ import SearchFilter from "./components/SearchFilter";
 function App() {
   return (
     <>
-      <SearchFilter />
+      <Counter />
+      {/* <SearchFilter /> */}
       {/* <CodeSplitting /> */}
       {/* <PromisesAndAsyncAwait /> */}
       {/* <CustomHook /> */}
