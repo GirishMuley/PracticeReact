@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import ArrayOfFunction from "./components/ArrayOfFunction";
+import CustomHook from "./components/CustomHook";
+// import ArrayOfFunction from "./components/ArrayOfFunction";
 // import Family from "./components/Family";
 // import { familyTree } from "./components/data";
 // import HelperFunction from "./components/HelperFunction";
@@ -27,7 +28,8 @@ import ArrayOfFunction from "./components/ArrayOfFunction";
 function App() {
   return (
     <>
-      <ArrayOfFunction />
+      <CustomHook />
+      {/* <ArrayOfFunction /> */}
       {/* <Family familyTree={familyTree} /> */}
       {/* <HelperFunction /> */}
       {/* <LazyLoading /> */}
