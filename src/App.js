@@ -1,7 +1,11 @@
 import "./Card.css";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "react-query";
+import NornalCall from "./components/NornalCall";
+import CachedCall from "./components/CachedCall";
 // import SearchFilter from "./components/SearchFilter";
-import Counter from "./Counter";
+// import Counter from "./Counter";
 // import CodeSplitting from "./components/CodeSplitting";
 // import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
 // import CustomHook from "./components/CustomHook";
@@ -30,36 +34,46 @@ import Counter from "./Counter";
 // import StateUsingClassComponent from "./components/StateUsingClassComponent";
 
 function App() {
+  let queryClient = new QueryClient();
   return (
-    <>
-      <Counter />
-      {/* <SearchFilter /> */}
-      {/* <CodeSplitting /> */}
-      {/* <PromisesAndAsyncAwait /> */}
-      {/* <CustomHook /> */}
-      {/* <ArrayOfFunction /> */}
-      {/* <Family familyTree={familyTree} /> */}
-      {/* <HelperFunction /> */}
-      {/* <LazyLoading /> */}
-      {/* <AddComponent /> */}
-      {/* <Name /> */}
-      {/* <Debouncing /> */}
-      {/* <REST /> */}
-      {/* <ReactFragment /> */}
-      {/* <InnerHtml /> */}
-      {/* <Controllers /> */}
-      {/* <Styling /> */}
-      {/* <DynamicInputs /> */}
-      {/* <FormInReact /> */}
-      {/* <KeysInReact /> */}
-      {/* <Add /> */}
-      {/* <InlineConditionalExpressions /> */}
-      {/* <Parent /> */}
-      {/* <StateUsingClassComponent /> */}
-      {/* <Count /> */}
-      {/* <Filter /> */}
-      {/* <Map /> */}
-    </>
+    <QueryClientProvider client={queryClient}>
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<NornalCall />} />
+            <Route path="/normal-call" element={<NornalCall />} />
+            <Route path="/cached-call" element={<CachedCall />} />
+          </Routes>
+        </BrowserRouter>
+        {/* <Counter /> */}
+        {/* <SearchFilter /> */}
+        {/* <CodeSplitting /> */}
+        {/* <PromisesAndAsyncAwait /> */}
+        {/* <CustomHook /> */}
+        {/* <ArrayOfFunction /> */}
+        {/* <Family familyTree={familyTree} /> */}
+        {/* <HelperFunction /> */}
+        {/* <LazyLoading /> */}
+        {/* <AddComponent /> */}
+        {/* <Name /> */}
+        {/* <Debouncing /> */}
+        {/* <REST /> */}
+        {/* <ReactFragment /> */}
+        {/* <InnerHtml /> */}
+        {/* <Controllers /> */}
+        {/* <Styling /> */}
+        {/* <DynamicInputs /> */}
+        {/* <FormInReact /> */}
+        {/* <KeysInReact /> */}
+        {/* <Add /> */}
+        {/* <InlineConditionalExpressions /> */}
+        {/* <Parent /> */}
+        {/* <StateUsingClassComponent /> */}
+        {/* <Count /> */}
+        {/* <Filter /> */}
+        {/* <Map /> */}
+      </>
+    </QueryClientProvider>
   );
 }
 
