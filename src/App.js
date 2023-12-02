@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import CustomHook from "./components/CustomHook";
+import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
+// import CustomHook from "./components/CustomHook";
 // import ArrayOfFunction from "./components/ArrayOfFunction";
 // import Family from "./components/Family";
 // import { familyTree } from "./components/data";
@@ -28,7 +29,8 @@ import CustomHook from "./components/CustomHook";
 function App() {
   return (
     <>
-      <CustomHook />
+      <PromisesAndAsyncAwait />
+      {/* <CustomHook /> */}
       {/* <ArrayOfFunction /> */}
       {/* <Family familyTree={familyTree} /> */}
       {/* <HelperFunction /> */}
