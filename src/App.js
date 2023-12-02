@@ -1,6 +1,7 @@
 import "./Card.css";
 import "./App.css";
-import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
+import CodeSplitting from "./components/CodeSplitting";
+// import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
 // import CustomHook from "./components/CustomHook";
 // import ArrayOfFunction from "./components/ArrayOfFunction";
 // import Family from "./components/Family";
@@ -29,7 +30,8 @@ import PromisesAndAsyncAwait from "./components/PromisesAndAsyncAwait";
 function App() {
   return (
     <>
-      <PromisesAndAsyncAwait />
+      <CodeSplitting />
+      {/* <PromisesAndAsyncAwait /> */}
       {/* <CustomHook /> */}
       {/* <ArrayOfFunction /> */}
       {/* <Family familyTree={familyTree} /> */}
